@@ -2,84 +2,90 @@
 <html>
 <head>
   <title>Cervecería El Buen Sabor</title>
-  <!-- Enlace a Bootstrap CSS desde un CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <!-- Enlace a tu archivo CSS externo -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <!-- Barra de navegación -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Cervecería El Buen Sabor</a>
-      <!-- Menú de navegación -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Novedades</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <!-- ... Código anterior de la barra de navegación ... -->
   </nav>
 
   <!-- Sección Hero -->
   <header class="hero">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <h1>Bienvenidos a Cervecería El Buen Sabor</h1>
-          <p>La mejor cerveza artesanal te espera</p>
-        </div>
-        <div class="col-md-6">
-          <img src="media/proveedores-de-cerveza.jpg" alt="Cervecería" class="img-fluid">
-        </div>
-      </div>
-    </div>
+    <!-- ... Código anterior de la sección Hero ... -->
   </header>
 
   <!-- Sección Novedades -->
   <section class="novedades">
+    <!-- ... Código anterior de la sección Novedades ... -->
+  </section>
+
+  <!-- Sección Contacto -->
+  <section class="contacto">
     <div class="container">
-      <h2>Novedades</h2>
+      <h2>Contacto</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p>Puedes ponerte en contacto con nosotros llamando al siguiente número:</p>
+          <p>Teléfono: (123) 456-7890</p>
+          <p>O si lo prefieres, envíanos un correo electrónico a:</p>
+          <p>Correo electrónico: info@cerveceriaelsabor.com</p>
+        </div>
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+            </div>
+            <div class="form-group">
+              <label for="correo">Correo electrónico</label>
+              <input type="email" class="form-control" id="correo" placeholder="Ingresa tu correo electrónico">
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje</label>
+              <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Catálogo de Cervezas -->
+  <section class="catalogo-cervezas">
+    <div class="container">
+      <h2>Nuestras Cervezas</h2>
       <div class="row">
         <div class="col-md-4">
           <div class="card">
-            <img src="media/cerveza 3.jpg" class="card-img-top" alt="Novedad 1">
+            <img src="media/cerveza1.jpg" class="card-img-top" alt="Cerveza Rubia">
             <div class="card-body">
-              <h5 class="card-title">Novedad 1</h5>
-              <p class="card-text">Disfruta de nuestra nueva cerveza de temporada con sabor a lúpulo y notas cítricas. ¡Una experiencia única para tu paladar!</p>
+              <h5 class="card-title">Cerveza Rubia</h5>
+              <p class="card-text">Nuestra cerveza rubia es suave y refrescante, con un equilibrado sabor a malta y un toque floral.</p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="media/cerveza 2.webp" class="card-img-top" alt="Novedad 2">
+            <img src="media/cerveza2.jpg" class="card-img-top" alt="Cerveza Roja">
             <div class="card-body">
-              <h5 class="card-title">Novedad 2</h5>
-              <p class="card-text">Te presentamos nuestra cerveza de edición limitada, elaborada con los mejores ingredientes y un toque especial de especias. ¡No te la puedes perder!</p>
+              <h5 class="card-title">Cerveza Roja</h5>
+              <p class="card-text">Nuestra cerveza roja tiene un característico sabor a caramelo y un color intenso que la hace única.</p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="media/cerveza 1.jpg" class="card-img-top" alt="Novedad 3">
+            <img src="media/cerveza3.jpg" class="card-img-top" alt="Cerveza Negra">
             <div class="card-body">
-              <h5 class="card-title">Novedad 3</h5>
-              <p class="card-text">Descubre nuestra cerveza artesanal galardonada con premios internacionales. Su equilibrado sabor y aroma te cautivarán desde el primer sorbo.</p>
+              <h5 class="card-title">Cerveza Negra</h5>
+              <p class="card-text">Nuestra cerveza negra destaca por su sabor a café y chocolate, con notas tostadas que la hacen irresistible.</p>
             </div>
           </div>
         </div>
-       
+        <!-- Agrega más cervezas aquí -->
       </div>
     </div>
   </section>

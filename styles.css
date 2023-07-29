@@ -1,131 +1,63 @@
-
+/* Estilos adicionales */
 body {
-    font-family: "Arial", sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    max-width: 1200px;
-  }
-  
+  padding-top: 80px;
+}
 
-  .navbar {
-    background-color: #343a40;
-  }
-  
-  .navbar-brand {
-    font-size: 24px;
-  }
-  
-  .navbar-nav .nav-link {
-    color: #fff;
-    font-size: 18px;
-    padding: 8px 15px;
-  }
-  
+.hero {
+  background-color: #f8e8c5;
+  padding: 60px;
+}
 
-  .hero {
-    background-image: url("https://via.placeholder.com/1200x600");
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    padding: 100px 0;
-  }
-  
-  .hero h1 {
-    font-size: 48px;
-    font-weight: bold;
-  }
-  
-  .hero p {
-    font-size: 24px;
-    font-weight: 300;
-  }
-  
+.hero h1 {
+  font-size: 36px;
+}
 
-  .novedades {
-    background-color: #f9f9f9;
-    padding: 80px 0;
-  }
-  
-  .novedades h2 {
-    font-size: 36px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 50px;
-  }
-  
-  .card {
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-  }
-  
-  .card:hover {
-    transform: scale(1.05);
-  }
-  
-  .card-img-top {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-  
-  .card-body {
-    padding: 20px;
-  }
-  
-  .card-title {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .card-text {
-    font-size: 16px;
-    color: #666;
-  }
-  
+.hero p {
+  font-size: 18px;
+}
 
-  .footer {
-    background-color: #343a40;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  .footer p {
-    margin: 0;
-  }
-  
-  
-  @media (max-width: 576px) {
-    .hero h1 {
-      font-size: 36px;
-    }
-  
-    .hero p {
-      font-size: 20px;
-    }
-  
-    .navbar-brand {
-      font-size: 20px;
-    }
-  
-    .navbar-nav .nav-link {
-      font-size: 16px;
-    }
-  
-    .novedades h2 {
-      font-size: 28px;
-    }
-  
-    .card-title {
-      font-size: 20px;
-    }
-  
-    .card-text {
-      font-size: 14px;
-    }
-  }
-  
+.novedades {
+  padding: 60px 0;
+}
+
+.novedades h2 {
+  margin-bottom: 30px;
+}
+
+.novedades .card {
+  margin-bottom: 30px;
+}
+
+.cervezas {
+  padding: 60px 0;
+}
+
+.cervezas h2 {
+  margin-bottom: 30px;
+}
+
+.cervezas .card {
+  margin-bottom: 30px;
+}
+
+.contacto {
+  padding: 60px 0;
+  background-color: #f8e8c5;
+}
+
+.contacto h2 {
+  margin-bottom: 30px;
+}
+
+.contacto .form-group {
+  margin-bottom: 20px;
+}
+
+.contacto .btn-primary {
+  background-color: #b45f06;
+  border-color: #b45f06;
+}
+
+.footer {
+  color: #fff;
+}
